@@ -1,0 +1,36 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: div;
+    animation-delay: 1.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes div{
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: rgb(0, 110, 255);
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 0px;
+        background-color: pink;
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: 500px;
+        background-color: rgb(22, 164, 72);
+    }
+    75%{
+        margin-left: 0px;
+        margin-top: 500px;
+        background-color: yellow;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: red;
+    }
+}
